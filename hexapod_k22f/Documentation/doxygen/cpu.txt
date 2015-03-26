@@ -1,0 +1,19 @@
+/*!
+\page page_cpu CPU
+*/
+
+/*!
+** @}
+*/
+/*
+** ###################################################################
+**
+**     This file was created by Processor Expert 10.4 [05.11]
+**     for the Freescale Kinetis series of microcontrollers.
+**
+** ###################################################################
+*/
+/*!
+\page page_cpu CPU
+*/
+
