@@ -93,6 +93,8 @@ void CompassInit(void){
 	  FX1_WriteReg8(FX1_CTRL_REG_5, 0x01);		// DRDY interrupte enable
 	  //FX1_WriteReg8(FX1_CTRL_REG_1, 0x35);		// ODR = 3.125Hz Reduced noise, Active mode
 	  FX1_WriteReg8(FX1_CTRL_REG_1, 0x25);		// ODR = 3.125Hz Reduced noise, Active mode
+
+	  compassCalibrationReady=0;				// Demarre une sequence de calibration
 }
 
 
@@ -129,7 +131,7 @@ void CompassCalibrate(void){
 		}
 		else
 			// -------------- MAG CALIBRATION
-				if (i < 94){	// This will take ~30s (94 samples * 1/3.125)
+				if (i < 188){	// This will take ~30s (94 samples * 1/3.125)
 
 						FX1_GetMagX(&Xout_Mag_16_bit);		// Compute 16-bit X-axis magnetic output value
 						FX1_GetMagY(&Yout_Mag_16_bit);		// Compute 16-bit Y-axis magnetic output value

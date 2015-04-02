@@ -273,8 +273,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x214 ./Static_Code/System/Peripherals_Init.o
  .debug_macro   0x00000000     0x185c ./Static_Code/System/Peripherals_Init.o
  .debug_macro   0x00000000      0x4cc ./Static_Code/System/Peripherals_Init.o
- .debug_line    0x00000000      0x197 ./Static_Code/System/Peripherals_Init.o
- .debug_str     0x00000000     0xb467 ./Static_Code/System/Peripherals_Init.o
+ .debug_line    0x00000000      0x199 ./Static_Code/System/Peripherals_Init.o
+ .debug_str     0x00000000     0xb469 ./Static_Code/System/Peripherals_Init.o
  .comment       0x00000000       0x2b ./Static_Code/System/Peripherals_Init.o
  .ARM.attributes
                 0x00000000       0x39 ./Static_Code/System/Peripherals_Init.o
@@ -3518,8 +3518,8 @@ Discarded input sections
  .debug_macro   0x00000000     0x185c ./Generated_Code/Pins1.o
  .debug_macro   0x00000000      0x4cc ./Generated_Code/Pins1.o
  .debug_macro   0x00000000     0xbc92 ./Generated_Code/Pins1.o
- .debug_line    0x00000000      0x17f ./Generated_Code/Pins1.o
- .debug_str     0x00000000    0x4b97e ./Generated_Code/Pins1.o
+ .debug_line    0x00000000      0x181 ./Generated_Code/Pins1.o
+ .debug_str     0x00000000    0x4b980 ./Generated_Code/Pins1.o
  .comment       0x00000000       0x2b ./Generated_Code/Pins1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/Pins1.o
@@ -3561,8 +3561,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SCL1.o
  .debug_macro   0x00000000       0x46 ./Generated_Code/SCL1.o
  .debug_macro   0x00000000       0x26 ./Generated_Code/SCL1.o
- .debug_line    0x00000000      0x398 ./Generated_Code/SCL1.o
- .debug_str     0x00000000    0x4d2fe ./Generated_Code/SCL1.o
+ .debug_line    0x00000000      0x3a0 ./Generated_Code/SCL1.o
+ .debug_str     0x00000000    0x4d300 ./Generated_Code/SCL1.o
  .comment       0x00000000       0x2b ./Generated_Code/SCL1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SCL1.o
@@ -3604,8 +3604,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SDA1.o
  .debug_macro   0x00000000       0x46 ./Generated_Code/SDA1.o
  .debug_macro   0x00000000       0x26 ./Generated_Code/SDA1.o
- .debug_line    0x00000000      0x398 ./Generated_Code/SDA1.o
- .debug_str     0x00000000    0x4d2fe ./Generated_Code/SDA1.o
+ .debug_line    0x00000000      0x3a0 ./Generated_Code/SDA1.o
+ .debug_str     0x00000000    0x4d300 ./Generated_Code/SDA1.o
  .comment       0x00000000       0x2b ./Generated_Code/SDA1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SDA1.o
@@ -3647,8 +3647,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_HEAD.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_HEAD.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_HEAD.o
- .debug_line    0x00000000      0x39f ./Generated_Code/SM_HEAD.o
- .debug_str     0x00000000    0x4d2c8 ./Generated_Code/SM_HEAD.o
+ .debug_line    0x00000000      0x3a7 ./Generated_Code/SM_HEAD.o
+ .debug_str     0x00000000    0x4d2ca ./Generated_Code/SM_HEAD.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_HEAD.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_HEAD.o
@@ -3690,8 +3690,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_A1.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_A1.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_A1.o
- .debug_line    0x00000000      0x3a2 ./Generated_Code/SM_LEG_A1.o
- .debug_str     0x00000000    0x4d2ba ./Generated_Code/SM_LEG_A1.o
+ .debug_line    0x00000000      0x3aa ./Generated_Code/SM_LEG_A1.o
+ .debug_str     0x00000000    0x4d2bc ./Generated_Code/SM_LEG_A1.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_A1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_A1.o
@@ -3733,8 +3733,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_A2.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_A2.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_A2.o
- .debug_line    0x00000000      0x3a2 ./Generated_Code/SM_LEG_A2.o
- .debug_str     0x00000000    0x4d2ba ./Generated_Code/SM_LEG_A2.o
+ .debug_line    0x00000000      0x3aa ./Generated_Code/SM_LEG_A2.o
+ .debug_str     0x00000000    0x4d2bc ./Generated_Code/SM_LEG_A2.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_A2.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_A2.o
@@ -3776,8 +3776,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_A3.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_A3.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_A3.o
- .debug_line    0x00000000      0x3a2 ./Generated_Code/SM_LEG_A3.o
- .debug_str     0x00000000    0x4d2ba ./Generated_Code/SM_LEG_A3.o
+ .debug_line    0x00000000      0x3aa ./Generated_Code/SM_LEG_A3.o
+ .debug_str     0x00000000    0x4d2bc ./Generated_Code/SM_LEG_A3.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_A3.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_A3.o
@@ -3819,8 +3819,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_B1.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_B1.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_B1.o
- .debug_line    0x00000000      0x3a2 ./Generated_Code/SM_LEG_B1.o
- .debug_str     0x00000000    0x4d2ba ./Generated_Code/SM_LEG_B1.o
+ .debug_line    0x00000000      0x3aa ./Generated_Code/SM_LEG_B1.o
+ .debug_str     0x00000000    0x4d2bc ./Generated_Code/SM_LEG_B1.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_B1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_B1.o
@@ -3862,8 +3862,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_B2.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_B2.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_B2.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_B2.o
- .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_B2.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_B2.o
+ .debug_str     0x00000000    0x4d2d2 ./Generated_Code/SM_LEG_B2.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_B2.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_B2.o
@@ -3905,8 +3905,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_B3.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_B3.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_B3.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_B3.o
- .debug_str     0x00000000    0x4d2ce ./Generated_Code/SM_LEG_B3.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_B3.o
+ .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_B3.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_B3.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_B3.o
@@ -3948,8 +3948,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_C1.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_C1.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_C1.o
- .debug_line    0x00000000      0x3a2 ./Generated_Code/SM_LEG_C1.o
- .debug_str     0x00000000    0x4d2bc ./Generated_Code/SM_LEG_C1.o
+ .debug_line    0x00000000      0x3aa ./Generated_Code/SM_LEG_C1.o
+ .debug_str     0x00000000    0x4d2be ./Generated_Code/SM_LEG_C1.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_C1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_C1.o
@@ -3991,8 +3991,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_C2.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_C2.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_C2.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_C2.o
- .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_C2.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_C2.o
+ .debug_str     0x00000000    0x4d2d2 ./Generated_Code/SM_LEG_C2.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_C2.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_C2.o
@@ -4034,8 +4034,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_C3.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_C3.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_C3.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_C3.o
- .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_C3.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_C3.o
+ .debug_str     0x00000000    0x4d2d2 ./Generated_Code/SM_LEG_C3.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_C3.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_C3.o
@@ -4077,8 +4077,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_D1.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_D1.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_D1.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_D1.o
- .debug_str     0x00000000    0x4d2ce ./Generated_Code/SM_LEG_D1.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_D1.o
+ .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_D1.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_D1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_D1.o
@@ -4120,8 +4120,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_D2.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_D2.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_D2.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_D2.o
- .debug_str     0x00000000    0x4d2d4 ./Generated_Code/SM_LEG_D2.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_D2.o
+ .debug_str     0x00000000    0x4d2d6 ./Generated_Code/SM_LEG_D2.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_D2.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_D2.o
@@ -4163,8 +4163,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_D3.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_D3.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_D3.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_D3.o
- .debug_str     0x00000000    0x4d2ce ./Generated_Code/SM_LEG_D3.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_D3.o
+ .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_D3.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_D3.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_D3.o
@@ -4206,8 +4206,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_E1.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_E1.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_E1.o
- .debug_line    0x00000000      0x3a2 ./Generated_Code/SM_LEG_E1.o
- .debug_str     0x00000000    0x4d2ba ./Generated_Code/SM_LEG_E1.o
+ .debug_line    0x00000000      0x3aa ./Generated_Code/SM_LEG_E1.o
+ .debug_str     0x00000000    0x4d2bc ./Generated_Code/SM_LEG_E1.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_E1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_E1.o
@@ -4249,8 +4249,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_E2.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_E2.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_E2.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_E2.o
- .debug_str     0x00000000    0x4d2ce ./Generated_Code/SM_LEG_E2.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_E2.o
+ .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_E2.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_E2.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_E2.o
@@ -4292,8 +4292,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_E3.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_E3.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_E3.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_E3.o
- .debug_str     0x00000000    0x4d2ce ./Generated_Code/SM_LEG_E3.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_E3.o
+ .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_E3.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_E3.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_E3.o
@@ -4335,8 +4335,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_F1.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_F1.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_F1.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_F1.o
- .debug_str     0x00000000    0x4d2ce ./Generated_Code/SM_LEG_F1.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_F1.o
+ .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_F1.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_F1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_F1.o
@@ -4378,8 +4378,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_F2.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_F2.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_F2.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_F2.o
- .debug_str     0x00000000    0x4d2ce ./Generated_Code/SM_LEG_F2.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_F2.o
+ .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_F2.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_F2.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_F2.o
@@ -4421,8 +4421,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/SM_LEG_F3.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/SM_LEG_F3.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/SM_LEG_F3.o
- .debug_line    0x00000000      0x3a3 ./Generated_Code/SM_LEG_F3.o
- .debug_str     0x00000000    0x4d2ce ./Generated_Code/SM_LEG_F3.o
+ .debug_line    0x00000000      0x3ab ./Generated_Code/SM_LEG_F3.o
+ .debug_str     0x00000000    0x4d2d0 ./Generated_Code/SM_LEG_F3.o
  .comment       0x00000000       0x2b ./Generated_Code/SM_LEG_F3.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/SM_LEG_F3.o
@@ -5446,8 +5446,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x4cc ./Generated_Code/UsonicTrig.o
  .debug_macro   0x00000000       0x40 ./Generated_Code/UsonicTrig.o
  .debug_macro   0x00000000       0x20 ./Generated_Code/UsonicTrig.o
- .debug_line    0x00000000      0x3a4 ./Generated_Code/UsonicTrig.o
- .debug_str     0x00000000    0x4d2c0 ./Generated_Code/UsonicTrig.o
+ .debug_line    0x00000000      0x3ac ./Generated_Code/UsonicTrig.o
+ .debug_str     0x00000000    0x4d2c2 ./Generated_Code/UsonicTrig.o
  .comment       0x00000000       0x2b ./Generated_Code/UsonicTrig.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/UsonicTrig.o
@@ -5928,17 +5928,17 @@ LOAD c:/freescale/kds_2.0.0/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.0/m4/fp/v
  .text.IR0_detect_OnInterrupt
                 0x00001d30       0x88 ./Sources/Events.o
                 0x00001d30                IR0_detect_OnInterrupt
- .text.main     0x00001db8      0x360 ./Sources/main.o
+ .text.main     0x00001db8      0x354 ./Sources/main.o
                 0x00001db8                main
  .text.replyToRemote
-                0x00002118       0x48 ./Sources/main.o
-                0x00002118                replyToRemote
+                0x0000210c       0x48 ./Sources/main.o
+                0x0000210c                replyToRemote
  .text.processCommand
-                0x00002160      0x56c ./Sources/main.o
-                0x00002160                processCommand
+                0x00002154      0x56c ./Sources/main.o
+                0x00002154                processCommand
  .text.CompassInit
-                0x000026cc       0x54 ./Sources/sensors.o
-                0x000026cc                CompassInit
+                0x000026c0       0x60 ./Sources/sensors.o
+                0x000026c0                CompassInit
  .text.CompassCalibrate
                 0x00002720      0x4b4 ./Sources/sensors.o
                 0x00002720                CompassCalibrate
@@ -7601,180 +7601,180 @@ OUTPUT(hexapod_k22f.elf elf32-littlearm)
  .debug_macro   0x0002bf3e      0x522 ./Generated_Code/UsonicPWM.o
  .debug_macro   0x0002c460       0xce ./Generated_Code/WAIT1.o
 
-.debug_line     0x00000000    0x14309
- .debug_line    0x00000000      0x9ad ./Static_Code/System/CPU_Init.o
- .debug_line    0x000009ad      0xf3d ./Static_Code/System/Vectors.o
- .debug_line    0x000018ea      0x475 ./Sources/DCFcom.o
- .debug_line    0x00001d5f      0xaaa ./Sources/Events.o
- .debug_line    0x00002809      0xafc ./Sources/main.o
- .debug_line    0x00003305      0x8e6 ./Sources/sensors.o
- .debug_line    0x00003beb      0x821 ./Sources/sw_pwm.o
- .debug_line    0x0000440c      0x40a ./Project_Settings/Startup_Code/startup.o
- .debug_line    0x00004816      0x4cd ./Generated_Code/ASerialLdd1.o
- .debug_line    0x00004ce3      0x3f8 ./Generated_Code/BitIoLdd1.o
- .debug_line    0x000050db      0x3fa ./Generated_Code/BitIoLdd10.o
- .debug_line    0x000054d5      0x3fa ./Generated_Code/BitIoLdd11.o
- .debug_line    0x000058cf      0x3fa ./Generated_Code/BitIoLdd12.o
- .debug_line    0x00005cc9      0x3fa ./Generated_Code/BitIoLdd13.o
- .debug_line    0x000060c3      0x3fa ./Generated_Code/BitIoLdd14.o
- .debug_line    0x000064bd      0x3fa ./Generated_Code/BitIoLdd15.o
- .debug_line    0x000068b7      0x3fa ./Generated_Code/BitIoLdd16.o
- .debug_line    0x00006cb1      0x3fa ./Generated_Code/BitIoLdd17.o
- .debug_line    0x000070ab      0x3fa ./Generated_Code/BitIoLdd18.o
- .debug_line    0x000074a5      0x3fa ./Generated_Code/BitIoLdd19.o
- .debug_line    0x0000789f      0x40e ./Generated_Code/BitIoLdd2.o
- .debug_line    0x00007cad      0x3fa ./Generated_Code/BitIoLdd20.o
- .debug_line    0x000080a7      0x3fa ./Generated_Code/BitIoLdd21.o
- .debug_line    0x000084a1      0x3fa ./Generated_Code/BitIoLdd22.o
- .debug_line    0x0000889b      0x40e ./Generated_Code/BitIoLdd3.o
- .debug_line    0x00008ca9      0x3f8 ./Generated_Code/BitIoLdd4.o
- .debug_line    0x000090a1      0x3f8 ./Generated_Code/BitIoLdd5.o
- .debug_line    0x00009499      0x3f8 ./Generated_Code/BitIoLdd6.o
- .debug_line    0x00009891      0x3f8 ./Generated_Code/BitIoLdd7.o
- .debug_line    0x00009c89      0x3f8 ./Generated_Code/BitIoLdd8.o
- .debug_line    0x0000a081      0x3f8 ./Generated_Code/BitIoLdd9.o
- .debug_line    0x0000a479      0x8c9 ./Generated_Code/Cpu.o
- .debug_line    0x0000ad42      0x3f6 ./Generated_Code/ExtIntLdd1.o
- .debug_line    0x0000b138      0x3f9 ./Generated_Code/ExtIntLdd2.o
- .debug_line    0x0000b531      0x3f9 ./Generated_Code/ExtIntLdd3.o
- .debug_line    0x0000b92a      0x3f8 ./Generated_Code/ExtIntLdd4.o
- .debug_line    0x0000bd22      0x3f7 ./Generated_Code/ExtIntLdd5.o
- .debug_line    0x0000c119      0x6e3 ./Generated_Code/FX1.o
- .debug_line    0x0000c7fc      0x54f ./Generated_Code/GI2C1.o
- .debug_line    0x0000cd4b      0x6ec ./Generated_Code/I2C1.o
- .debug_line    0x0000d437      0x830 ./Generated_Code/IR0_detect.o
- .debug_line    0x0000dc67      0x830 ./Generated_Code/IR1_detect.o
- .debug_line    0x0000e497      0x830 ./Generated_Code/IR2_detect.o
- .debug_line    0x0000ecc7      0x82e ./Generated_Code/Int1accel.o
- .debug_line    0x0000f4f5      0x822 ./Generated_Code/PE_LDD.o
- .debug_line    0x0000fd17      0x822 ./Generated_Code/TI1.o
- .debug_line    0x00010539      0x822 ./Generated_Code/TI2.o
- .debug_line    0x00010d5b      0x822 ./Generated_Code/TI3.o
- .debug_line    0x0001157d      0x3d7 ./Generated_Code/TU1.o
- .debug_line    0x00011954      0x3e6 ./Generated_Code/TU2.o
- .debug_line    0x00011d3a      0x3e0 ./Generated_Code/TU3.o
- .debug_line    0x0001211a      0x3db ./Generated_Code/TimerIntLdd1.o
- .debug_line    0x000124f5      0x3d7 ./Generated_Code/TimerIntLdd2.o
- .debug_line    0x000128cc      0x3d7 ./Generated_Code/TimerIntLdd3.o
- .debug_line    0x00012ca3      0xaa6 ./Generated_Code/UART0.o
- .debug_line    0x00013749      0x82e ./Generated_Code/UsonicPWM.o
- .debug_line    0x00013f77      0x392 ./Generated_Code/WAIT1.o
+.debug_line     0x00000000    0x144e1
+ .debug_line    0x00000000      0x9b7 ./Static_Code/System/CPU_Init.o
+ .debug_line    0x000009b7      0xf47 ./Static_Code/System/Vectors.o
+ .debug_line    0x000018fe      0x47b ./Sources/DCFcom.o
+ .debug_line    0x00001d79      0xab2 ./Sources/Events.o
+ .debug_line    0x0000282b      0xb03 ./Sources/main.o
+ .debug_line    0x0000332e      0x8ef ./Sources/sensors.o
+ .debug_line    0x00003c1d      0x829 ./Sources/sw_pwm.o
+ .debug_line    0x00004446      0x40e ./Project_Settings/Startup_Code/startup.o
+ .debug_line    0x00004854      0x4d5 ./Generated_Code/ASerialLdd1.o
+ .debug_line    0x00004d29      0x400 ./Generated_Code/BitIoLdd1.o
+ .debug_line    0x00005129      0x402 ./Generated_Code/BitIoLdd10.o
+ .debug_line    0x0000552b      0x402 ./Generated_Code/BitIoLdd11.o
+ .debug_line    0x0000592d      0x402 ./Generated_Code/BitIoLdd12.o
+ .debug_line    0x00005d2f      0x402 ./Generated_Code/BitIoLdd13.o
+ .debug_line    0x00006131      0x402 ./Generated_Code/BitIoLdd14.o
+ .debug_line    0x00006533      0x402 ./Generated_Code/BitIoLdd15.o
+ .debug_line    0x00006935      0x402 ./Generated_Code/BitIoLdd16.o
+ .debug_line    0x00006d37      0x402 ./Generated_Code/BitIoLdd17.o
+ .debug_line    0x00007139      0x402 ./Generated_Code/BitIoLdd18.o
+ .debug_line    0x0000753b      0x402 ./Generated_Code/BitIoLdd19.o
+ .debug_line    0x0000793d      0x416 ./Generated_Code/BitIoLdd2.o
+ .debug_line    0x00007d53      0x402 ./Generated_Code/BitIoLdd20.o
+ .debug_line    0x00008155      0x402 ./Generated_Code/BitIoLdd21.o
+ .debug_line    0x00008557      0x402 ./Generated_Code/BitIoLdd22.o
+ .debug_line    0x00008959      0x416 ./Generated_Code/BitIoLdd3.o
+ .debug_line    0x00008d6f      0x400 ./Generated_Code/BitIoLdd4.o
+ .debug_line    0x0000916f      0x400 ./Generated_Code/BitIoLdd5.o
+ .debug_line    0x0000956f      0x400 ./Generated_Code/BitIoLdd6.o
+ .debug_line    0x0000996f      0x400 ./Generated_Code/BitIoLdd7.o
+ .debug_line    0x00009d6f      0x400 ./Generated_Code/BitIoLdd8.o
+ .debug_line    0x0000a16f      0x400 ./Generated_Code/BitIoLdd9.o
+ .debug_line    0x0000a56f      0x8d3 ./Generated_Code/Cpu.o
+ .debug_line    0x0000ae42      0x3fe ./Generated_Code/ExtIntLdd1.o
+ .debug_line    0x0000b240      0x401 ./Generated_Code/ExtIntLdd2.o
+ .debug_line    0x0000b641      0x401 ./Generated_Code/ExtIntLdd3.o
+ .debug_line    0x0000ba42      0x400 ./Generated_Code/ExtIntLdd4.o
+ .debug_line    0x0000be42      0x3ff ./Generated_Code/ExtIntLdd5.o
+ .debug_line    0x0000c241      0x6eb ./Generated_Code/FX1.o
+ .debug_line    0x0000c92c      0x557 ./Generated_Code/GI2C1.o
+ .debug_line    0x0000ce83      0x6f4 ./Generated_Code/I2C1.o
+ .debug_line    0x0000d577      0x83a ./Generated_Code/IR0_detect.o
+ .debug_line    0x0000ddb1      0x83a ./Generated_Code/IR1_detect.o
+ .debug_line    0x0000e5eb      0x83a ./Generated_Code/IR2_detect.o
+ .debug_line    0x0000ee25      0x838 ./Generated_Code/Int1accel.o
+ .debug_line    0x0000f65d      0x82a ./Generated_Code/PE_LDD.o
+ .debug_line    0x0000fe87      0x82c ./Generated_Code/TI1.o
+ .debug_line    0x000106b3      0x82c ./Generated_Code/TI2.o
+ .debug_line    0x00010edf      0x82c ./Generated_Code/TI3.o
+ .debug_line    0x0001170b      0x3df ./Generated_Code/TU1.o
+ .debug_line    0x00011aea      0x3ee ./Generated_Code/TU2.o
+ .debug_line    0x00011ed8      0x3e8 ./Generated_Code/TU3.o
+ .debug_line    0x000122c0      0x3e3 ./Generated_Code/TimerIntLdd1.o
+ .debug_line    0x000126a3      0x3df ./Generated_Code/TimerIntLdd2.o
+ .debug_line    0x00012a82      0x3df ./Generated_Code/TimerIntLdd3.o
+ .debug_line    0x00012e61      0xab0 ./Generated_Code/UART0.o
+ .debug_line    0x00013911      0x838 ./Generated_Code/UsonicPWM.o
+ .debug_line    0x00014149      0x398 ./Generated_Code/WAIT1.o
 
-.debug_str      0x00000000    0xc5a46
- .debug_str     0x00000000    0x60221 ./Static_Code/System/CPU_Init.o
-                              0x6038b (size before relaxing)
- .debug_str     0x00060221      0x980 ./Static_Code/System/Vectors.o
-                              0x607c1 (size before relaxing)
- .debug_str     0x00060ba1     0x2734 ./Sources/DCFcom.o
-                              0x4efef (size before relaxing)
- .debug_str     0x000632d5    0x5f46a ./Sources/Events.o
-                              0xbe7dd (size before relaxing)
- .debug_str     0x000c273f      0x7e5 ./Sources/main.o
-                              0xc03f7 (size before relaxing)
- .debug_str     0x000c2f24      0x31a ./Sources/sensors.o
-                              0x60d72 (size before relaxing)
- .debug_str     0x000c323e       0xd2 ./Sources/sw_pwm.o
-                              0x50a8b (size before relaxing)
- .debug_str     0x000c3310      0x1dd ./Project_Settings/Startup_Code/startup.o
-                              0x44f44 (size before relaxing)
- .debug_str     0x000c34ed      0x2ea ./Generated_Code/ASerialLdd1.o
-                              0x5e9e2 (size before relaxing)
- .debug_str     0x000c37d7       0xe2 ./Generated_Code/BitIoLdd1.o
-                              0x4d410 (size before relaxing)
- .debug_str     0x000c38b9       0xa8 ./Generated_Code/BitIoLdd10.o
-                              0x4d426 (size before relaxing)
- .debug_str     0x000c3961       0xa8 ./Generated_Code/BitIoLdd11.o
-                              0x4d424 (size before relaxing)
- .debug_str     0x000c3a09       0xa8 ./Generated_Code/BitIoLdd12.o
-                              0x4d42a (size before relaxing)
- .debug_str     0x000c3ab1       0xa8 ./Generated_Code/BitIoLdd13.o
-                              0x4d426 (size before relaxing)
- .debug_str     0x000c3b59       0xa8 ./Generated_Code/BitIoLdd14.o
-                              0x4d426 (size before relaxing)
- .debug_str     0x000c3c01       0xa8 ./Generated_Code/BitIoLdd15.o
-                              0x4d424 (size before relaxing)
- .debug_str     0x000c3ca9       0xa8 ./Generated_Code/BitIoLdd16.o
-                              0x4d424 (size before relaxing)
- .debug_str     0x000c3d51       0xa8 ./Generated_Code/BitIoLdd17.o
-                              0x4d424 (size before relaxing)
- .debug_str     0x000c3df9       0xa8 ./Generated_Code/BitIoLdd18.o
-                              0x4d424 (size before relaxing)
- .debug_str     0x000c3ea1       0xa8 ./Generated_Code/BitIoLdd19.o
-                              0x4d424 (size before relaxing)
- .debug_str     0x000c3f49       0xb1 ./Generated_Code/BitIoLdd2.o
-                              0x4d442 (size before relaxing)
- .debug_str     0x000c3ffa       0xa8 ./Generated_Code/BitIoLdd20.o
-                              0x4d424 (size before relaxing)
- .debug_str     0x000c40a2       0xa8 ./Generated_Code/BitIoLdd21.o
-                              0x4d424 (size before relaxing)
- .debug_str     0x000c414a       0xa8 ./Generated_Code/BitIoLdd22.o
-                              0x4d42a (size before relaxing)
- .debug_str     0x000c41f2       0xb1 ./Generated_Code/BitIoLdd3.o
-                              0x4d442 (size before relaxing)
- .debug_str     0x000c42a3       0xa0 ./Generated_Code/BitIoLdd4.o
-                              0x4d410 (size before relaxing)
- .debug_str     0x000c4343       0xa0 ./Generated_Code/BitIoLdd5.o
+.debug_str      0x00000000    0xc5a48
+ .debug_str     0x00000000    0x60223 ./Static_Code/System/CPU_Init.o
+                              0x6038d (size before relaxing)
+ .debug_str     0x00060223      0x980 ./Static_Code/System/Vectors.o
+                              0x607c3 (size before relaxing)
+ .debug_str     0x00060ba3     0x2734 ./Sources/DCFcom.o
+                              0x4eff1 (size before relaxing)
+ .debug_str     0x000632d7    0x5f46a ./Sources/Events.o
+                              0xbe7df (size before relaxing)
+ .debug_str     0x000c2741      0x7e5 ./Sources/main.o
+                              0xc03f9 (size before relaxing)
+ .debug_str     0x000c2f26      0x31a ./Sources/sensors.o
+                              0x60d74 (size before relaxing)
+ .debug_str     0x000c3240       0xd2 ./Sources/sw_pwm.o
+                              0x50a8d (size before relaxing)
+ .debug_str     0x000c3312      0x1dd ./Project_Settings/Startup_Code/startup.o
+                              0x44f46 (size before relaxing)
+ .debug_str     0x000c34ef      0x2ea ./Generated_Code/ASerialLdd1.o
+                              0x5e9e4 (size before relaxing)
+ .debug_str     0x000c37d9       0xe2 ./Generated_Code/BitIoLdd1.o
                               0x4d412 (size before relaxing)
- .debug_str     0x000c43e3       0xa0 ./Generated_Code/BitIoLdd6.o
-                              0x4d410 (size before relaxing)
- .debug_str     0x000c4483       0xa0 ./Generated_Code/BitIoLdd7.o
-                              0x4d410 (size before relaxing)
- .debug_str     0x000c4523       0xa0 ./Generated_Code/BitIoLdd8.o
-                              0x4d410 (size before relaxing)
- .debug_str     0x000c45c3       0xa0 ./Generated_Code/BitIoLdd9.o
-                              0x4d410 (size before relaxing)
- .debug_str     0x000c4663       0x34 ./Generated_Code/Cpu.o
-                              0x5ef61 (size before relaxing)
- .debug_str     0x000c4697       0x93 ./Generated_Code/ExtIntLdd1.o
-                              0x5091e (size before relaxing)
- .debug_str     0x000c472a       0xa8 ./Generated_Code/ExtIntLdd2.o
+ .debug_str     0x000c38bb       0xa8 ./Generated_Code/BitIoLdd10.o
+                              0x4d428 (size before relaxing)
+ .debug_str     0x000c3963       0xa8 ./Generated_Code/BitIoLdd11.o
+                              0x4d426 (size before relaxing)
+ .debug_str     0x000c3a0b       0xa8 ./Generated_Code/BitIoLdd12.o
+                              0x4d42c (size before relaxing)
+ .debug_str     0x000c3ab3       0xa8 ./Generated_Code/BitIoLdd13.o
+                              0x4d428 (size before relaxing)
+ .debug_str     0x000c3b5b       0xa8 ./Generated_Code/BitIoLdd14.o
+                              0x4d428 (size before relaxing)
+ .debug_str     0x000c3c03       0xa8 ./Generated_Code/BitIoLdd15.o
+                              0x4d426 (size before relaxing)
+ .debug_str     0x000c3cab       0xa8 ./Generated_Code/BitIoLdd16.o
+                              0x4d426 (size before relaxing)
+ .debug_str     0x000c3d53       0xa8 ./Generated_Code/BitIoLdd17.o
+                              0x4d426 (size before relaxing)
+ .debug_str     0x000c3dfb       0xa8 ./Generated_Code/BitIoLdd18.o
+                              0x4d426 (size before relaxing)
+ .debug_str     0x000c3ea3       0xa8 ./Generated_Code/BitIoLdd19.o
+                              0x4d426 (size before relaxing)
+ .debug_str     0x000c3f4b       0xb1 ./Generated_Code/BitIoLdd2.o
+                              0x4d444 (size before relaxing)
+ .debug_str     0x000c3ffc       0xa8 ./Generated_Code/BitIoLdd20.o
+                              0x4d426 (size before relaxing)
+ .debug_str     0x000c40a4       0xa8 ./Generated_Code/BitIoLdd21.o
+                              0x4d426 (size before relaxing)
+ .debug_str     0x000c414c       0xa8 ./Generated_Code/BitIoLdd22.o
+                              0x4d42c (size before relaxing)
+ .debug_str     0x000c41f4       0xb1 ./Generated_Code/BitIoLdd3.o
+                              0x4d444 (size before relaxing)
+ .debug_str     0x000c42a5       0xa0 ./Generated_Code/BitIoLdd4.o
+                              0x4d412 (size before relaxing)
+ .debug_str     0x000c4345       0xa0 ./Generated_Code/BitIoLdd5.o
+                              0x4d414 (size before relaxing)
+ .debug_str     0x000c43e5       0xa0 ./Generated_Code/BitIoLdd6.o
+                              0x4d412 (size before relaxing)
+ .debug_str     0x000c4485       0xa0 ./Generated_Code/BitIoLdd7.o
+                              0x4d412 (size before relaxing)
+ .debug_str     0x000c4525       0xa0 ./Generated_Code/BitIoLdd8.o
+                              0x4d412 (size before relaxing)
+ .debug_str     0x000c45c5       0xa0 ./Generated_Code/BitIoLdd9.o
+                              0x4d412 (size before relaxing)
+ .debug_str     0x000c4665       0x34 ./Generated_Code/Cpu.o
+                              0x5ef63 (size before relaxing)
+ .debug_str     0x000c4699       0x93 ./Generated_Code/ExtIntLdd1.o
                               0x50920 (size before relaxing)
- .debug_str     0x000c47d2       0x87 ./Generated_Code/ExtIntLdd3.o
-                              0x50920 (size before relaxing)
- .debug_str     0x000c4859       0x93 ./Generated_Code/ExtIntLdd4.o
-                              0x50926 (size before relaxing)
- .debug_str     0x000c48ec       0x93 ./Generated_Code/ExtIntLdd5.o
-                              0x50920 (size before relaxing)
- .debug_str     0x000c497f      0x298 ./Generated_Code/FX1.o
-                              0x4deb7 (size before relaxing)
- .debug_str     0x000c4c17      0x1d9 ./Generated_Code/GI2C1.o
-                              0x4db59 (size before relaxing)
- .debug_str     0x000c4df0      0x206 ./Generated_Code/I2C1.o
-                              0x4db9e (size before relaxing)
- .debug_str     0x000c4ff6       0x36 ./Generated_Code/IR0_detect.o
-                              0x5ee40 (size before relaxing)
- .debug_str     0x000c502c       0x36 ./Generated_Code/IR1_detect.o
-                              0x5ee40 (size before relaxing)
- .debug_str     0x000c5062       0x36 ./Generated_Code/IR2_detect.o
-                              0x5ee40 (size before relaxing)
- .debug_str     0x000c5098       0x35 ./Generated_Code/Int1accel.o
-                              0x5ee3f (size before relaxing)
- .debug_str     0x000c50cd      0x166 ./Generated_Code/PE_LDD.o
-                              0x5efb1 (size before relaxing)
- .debug_str     0x000c5233       0x31 ./Generated_Code/TI1.o
-                              0x5ee3b (size before relaxing)
- .debug_str     0x000c5264       0x31 ./Generated_Code/TI2.o
-                              0x5ee3b (size before relaxing)
- .debug_str     0x000c5295       0x31 ./Generated_Code/TI3.o
-                              0x5ee3b (size before relaxing)
- .debug_str     0x000c52c6       0xe0 ./Generated_Code/TU1.o
-                              0x4d40d (size before relaxing)
- .debug_str     0x000c53a6      0x126 ./Generated_Code/TU2.o
-                              0x559ea (size before relaxing)
- .debug_str     0x000c54cc       0x64 ./Generated_Code/TU3.o
-                              0x559eb (size before relaxing)
- .debug_str     0x000c5530       0xbe ./Generated_Code/TimerIntLdd1.o
-                              0x4d347 (size before relaxing)
- .debug_str     0x000c55ee       0x61 ./Generated_Code/TimerIntLdd2.o
-                              0x5580a (size before relaxing)
- .debug_str     0x000c564f       0x61 ./Generated_Code/TimerIntLdd3.o
-                              0x5580b (size before relaxing)
- .debug_str     0x000c56b0      0x2dd ./Generated_Code/UART0.o
-                              0x5f193 (size before relaxing)
- .debug_str     0x000c598d       0x35 ./Generated_Code/UsonicPWM.o
-                              0x5ee3f (size before relaxing)
- .debug_str     0x000c59c2       0x84 ./Generated_Code/WAIT1.o
-                              0x4c683 (size before relaxing)
+ .debug_str     0x000c472c       0xa8 ./Generated_Code/ExtIntLdd2.o
+                              0x50922 (size before relaxing)
+ .debug_str     0x000c47d4       0x87 ./Generated_Code/ExtIntLdd3.o
+                              0x50922 (size before relaxing)
+ .debug_str     0x000c485b       0x93 ./Generated_Code/ExtIntLdd4.o
+                              0x50928 (size before relaxing)
+ .debug_str     0x000c48ee       0x93 ./Generated_Code/ExtIntLdd5.o
+                              0x50922 (size before relaxing)
+ .debug_str     0x000c4981      0x298 ./Generated_Code/FX1.o
+                              0x4deb9 (size before relaxing)
+ .debug_str     0x000c4c19      0x1d9 ./Generated_Code/GI2C1.o
+                              0x4db5b (size before relaxing)
+ .debug_str     0x000c4df2      0x206 ./Generated_Code/I2C1.o
+                              0x4dba0 (size before relaxing)
+ .debug_str     0x000c4ff8       0x36 ./Generated_Code/IR0_detect.o
+                              0x5ee42 (size before relaxing)
+ .debug_str     0x000c502e       0x36 ./Generated_Code/IR1_detect.o
+                              0x5ee42 (size before relaxing)
+ .debug_str     0x000c5064       0x36 ./Generated_Code/IR2_detect.o
+                              0x5ee42 (size before relaxing)
+ .debug_str     0x000c509a       0x35 ./Generated_Code/Int1accel.o
+                              0x5ee41 (size before relaxing)
+ .debug_str     0x000c50cf      0x166 ./Generated_Code/PE_LDD.o
+                              0x5efb3 (size before relaxing)
+ .debug_str     0x000c5235       0x31 ./Generated_Code/TI1.o
+                              0x5ee3d (size before relaxing)
+ .debug_str     0x000c5266       0x31 ./Generated_Code/TI2.o
+                              0x5ee3d (size before relaxing)
+ .debug_str     0x000c5297       0x31 ./Generated_Code/TI3.o
+                              0x5ee3d (size before relaxing)
+ .debug_str     0x000c52c8       0xe0 ./Generated_Code/TU1.o
+                              0x4d40f (size before relaxing)
+ .debug_str     0x000c53a8      0x126 ./Generated_Code/TU2.o
+                              0x559ec (size before relaxing)
+ .debug_str     0x000c54ce       0x64 ./Generated_Code/TU3.o
+                              0x559ed (size before relaxing)
+ .debug_str     0x000c5532       0xbe ./Generated_Code/TimerIntLdd1.o
+                              0x4d349 (size before relaxing)
+ .debug_str     0x000c55f0       0x61 ./Generated_Code/TimerIntLdd2.o
+                              0x5580c (size before relaxing)
+ .debug_str     0x000c5651       0x61 ./Generated_Code/TimerIntLdd3.o
+                              0x5580d (size before relaxing)
+ .debug_str     0x000c56b2      0x2dd ./Generated_Code/UART0.o
+                              0x5f195 (size before relaxing)
+ .debug_str     0x000c598f       0x35 ./Generated_Code/UsonicPWM.o
+                              0x5ee41 (size before relaxing)
+ .debug_str     0x000c59c4       0x84 ./Generated_Code/WAIT1.o
+                              0x4c685 (size before relaxing)
 
 .debug_frame    0x00000000     0x30c8
  .debug_frame   0x00000000       0x9c ./Static_Code/System/CPU_Init.o

@@ -133,7 +133,7 @@ unsigned char IRdetectionStatus;
 unsigned char SMInterruptSended;
 
 
-const unsigned char HeartBitMsg[] = "Hexapod controller K22F v1.0.0 - 25.03.2015";
+const unsigned char HeartBitMsg[] = "Hexapod controller K22F v1.0.1 - 26.03.2015";
 unsigned char SM_Data_offset;						// Offset 1er servomoteur
 unsigned char SM_Data_count;						// Nombre de servomoteur
 
@@ -165,7 +165,6 @@ int main(void)
 
   /* Write your code here */
 	CompassInit();
-	compassCalibrationReady=0;
 
 //
 
@@ -402,8 +401,9 @@ int main(void)
   		break;
   	}
 
-  	case COMPASS_CALIB: compassCalibrationReady=0;				// Demarre une sequence de calibration
+  	case COMPASS_CALIB:
   				  	    CompassInit();
+  				  	    compassEnable=TRUE;
   		break;
 
 
