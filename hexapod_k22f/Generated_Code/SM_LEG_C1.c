@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : BitIO
 **     Version     : Component 02.086, Driver 01.00, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         This component "BitIO" implements an one-bit input/output.
 **         It uses one bit/pin of a port.
@@ -14,33 +15,22 @@
 **         Methods of this component are mostly implemented as a macros
 **         (if supported by target language and compiler).
 **     Settings    :
-**         Used pin                    :
-**             ----------------------------------------------------
-**                Number (on package)  |    Name
-**             ----------------------------------------------------
-**                       88            |  ADC1_SE5b/CMP0_IN3/PTC9/FTM3_CH5/I2S0_RX_BCLK/FBa_AD6/FTM2_FLT0
-**             ----------------------------------------------------
-**
-**         Port name                   : PTC
-**
-**         Bit number (in port)        : 9
-**         Bit mask of the port        : 0x0200
-**
-**         Initial direction           : Output (direction cannot be changed)
-**         Initial output value        : 0
-**         Initial pull option         : off
-**
-**         Port data register          : GPIOC_PDOR [0x400FF080]
-**         Port control register       : GPIOC_PDDR [0x400FF094]
-**
-**         Optimization for            : speed
+**          Component name                                 : SM_LEG_C1
+**          Pin for I/O                                    : ADC1_SE5b/CMP0_IN3/PTC9/FTM3_CH5/I2S0_RX_BCLK/FBa_AD6/FTM2_FLT0
+**          BitIO_LDD                                      : BitIO_LDD
+**          Direction                                      : Output
+**          Initialization                                 : 
+**            Init. direction                              : Output
+**            Init. value                                  : 0
+**          Safe mode                                      : yes
+**          Optimization for                               : speed
 **     Contents    :
 **         GetVal - bool SM_LEG_C1_GetVal(void);
 **         PutVal - void SM_LEG_C1_PutVal(bool Val);
 **         ClrVal - void SM_LEG_C1_ClrVal(void);
 **         SetVal - void SM_LEG_C1_SetVal(void);
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -178,7 +168,7 @@ void SM_LEG_C1_SetVal(void)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

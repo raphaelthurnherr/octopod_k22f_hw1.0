@@ -3,7 +3,7 @@
 **      Processor   : MK22FN512VDC12
 **      Version     : 1.0
 ** 
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,

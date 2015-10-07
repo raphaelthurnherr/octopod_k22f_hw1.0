@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : GenericI2C
 **     Version     : Component 01.023, Driver 01.00, CPU db: 3.00.000
+**     Repository  : Legacy User Components
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         This component implements a generic I2C driver wrapper to work both with LDD and non-LDD I2C components.
 **     Settings    :
@@ -332,7 +333,7 @@ byte GI2C1_ProbeACK(void* data, word dataSize, GI2C1_EnumSendFlags flags, word W
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

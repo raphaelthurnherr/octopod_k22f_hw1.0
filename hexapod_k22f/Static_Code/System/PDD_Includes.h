@@ -3,7 +3,7 @@
 **      Processor   : MK22FN512VDC12
 **      Version     : 1.0
 ** 
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -67,7 +67,9 @@ extern "C" {
 #include "LLWU_PDD.h"
 #include "LPTMR_PDD.h"
 #include "LPUART_PDD.h"
+#include "MCG_PDD.h"
 #include "MCM_PDD.h"
+#include "OSC_PDD.h"
 #include "PDB_PDD.h"
 #include "PIT_PDD.h"
 #include "PMC_PDD.h"

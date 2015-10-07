@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : AsynchroSerial
 **     Version     : Component 02.611, Driver 01.01, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         This component "AsynchroSerial" implements an asynchronous serial
 **         communication. The component supports different settings of
@@ -15,36 +16,45 @@
 **         Communication speed can be changed also in runtime.
 **         The component requires one on-chip asynchronous serial channel.
 **     Settings    :
-**         Serial channel              : LPUART0
-**
-**         Protocol
-**             Width                   : 8 bits
-**             Stop bits               : 1
-**             Parity                  : none
-**             Breaks                  : Disabled
-**             Input buffer size       : 80
-**             Output buffer size      : 80
-**
-**         Registers
-**
-**         Input interrupt
-**             Vector name             : INT_LPUART0
-**             Priority                : 112
-**
-**         Output interrupt
-**             Vector name             : INT_LPUART0
-**             Priority                : 112
-**
-**         Used pins:
-**         ----------------------------------------------------------
-**           Function | On package           |    Name
-**         ----------------------------------------------------------
-**            Input   |     101              |  PTD2/LLWU_P13/SPI0_SOUT/UART2_RX/FTM3_CH2/FBa_AD4/LPUART0_RX/I2C0_SCL
-**            Output  |     102              |  PTD3/SPI0_SIN/UART2_TX/FTM3_CH3/FBa_AD3/LPUART0_TX/I2C0_SDA
-**         ----------------------------------------------------------
-**
-**
-**
+**          Component name                                 : UART0
+**          Channel                                        : LPUART0
+**          Interrupt service/event                        : Enabled
+**            Interrupt RxD                                : INT_LPUART0
+**            Interrupt RxD priority                       : medium priority
+**            Interrupt TxD                                : INT_LPUART0
+**            Interrupt TxD priority                       : medium priority
+**            Interrupt Error                              : INT_LPUART0
+**            Interrupt Error priority                     : medium priority
+**            Input buffer size                            : 80
+**            Output buffer size                           : 80
+**            Handshake                                    : 
+**              CTS                                        : Disabled
+**              RTS                                        : Disabled
+**          Settings                                       : 
+**            Parity                                       : none
+**            Width                                        : 8 bits
+**            Stop bit                                     : 1
+**            Receiver                                     : Enabled
+**              RxD                                        : PTD2/LLWU_P13/SPI0_SOUT/UART2_RX/FTM3_CH2/FBa_AD4/LPUART0_RX/I2C0_SCL
+**            Transmitter                                  : Enabled
+**              TxD                                        : PTD3/SPI0_SIN/UART2_TX/FTM3_CH3/FBa_AD3/LPUART0_TX/I2C0_SDA
+**            Baud rate                                    : 115200 baud
+**            Break signal                                 : Disabled
+**            Wakeup condition                             : Idle line wakeup
+**            Transmitter output                           : Not inverted
+**            Receiver input                               : Not inverted
+**            Stop in wait mode                            : no
+**            Idle line mode                               : starts after start bit
+**            Break generation length                      : Short
+**          Initialization                                 : 
+**            Enabled in init. code                        : yes
+**            Events enabled in init.                      : yes
+**          CPU clock/speed selection                      : 
+**            High speed mode                              : This component enabled
+**            Low speed mode                               : This component disabled
+**            Slow speed mode                              : This component disabled
+**          Referenced components                          : 
+**            Serial_LDD                                   : Serial_LDD
 **     Contents    :
 **         RecvChar        - byte UART0_RecvChar(UART0_TComData *Chr);
 **         SendChar        - byte UART0_SendChar(UART0_TComData Chr);
@@ -55,7 +65,7 @@
 **         GetCharsInRxBuf - word UART0_GetCharsInRxBuf(void);
 **         GetCharsInTxBuf - word UART0_GetCharsInTxBuf(void);
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -398,7 +408,7 @@ void ASerialLdd1_OnBreak(LDD_TUserData *UserDataPtr);
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

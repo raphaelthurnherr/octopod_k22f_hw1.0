@@ -3,7 +3,7 @@
 **      Processor   : MK22FN512VDC12
 **      Version     : 1.00
 ** 
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -165,8 +165,8 @@ extern "C" {
 #define VECTOR_34         (tIsrFunc)&UnhandledInterrupt         /* 0x22 -    ivINT_FTF                     unused by PE */
 #define VECTOR_35         (tIsrFunc)&UnhandledInterrupt         /* 0x23 -    ivINT_Read_Collision          unused by PE */
 #define VECTOR_36         (tIsrFunc)&UnhandledInterrupt         /* 0x24 -    ivINT_LVD_LVW                 unused by PE */
-#define VECTOR_37         (tIsrFunc)&UnhandledInterrupt         /* 0x25 -    ivINT_LLW                     unused by PE */
-#define VECTOR_38         (tIsrFunc)&UnhandledInterrupt         /* 0x26 -    ivINT_Watchdog                unused by PE */
+#define VECTOR_37         (tIsrFunc)&UnhandledInterrupt         /* 0x25 -    ivINT_LLWU                    unused by PE */
+#define VECTOR_38         (tIsrFunc)&UnhandledInterrupt         /* 0x26 -    ivINT_WDOG_EWM                unused by PE */
 #define VECTOR_39         (tIsrFunc)&UnhandledInterrupt         /* 0x27 -    ivINT_RNG                     unused by PE */
 #define VECTOR_40         (tIsrFunc)&UnhandledInterrupt         /* 0x28 -    ivINT_I2C0                    unused by PE */
 #define VECTOR_41         (tIsrFunc)&UnhandledInterrupt         /* 0x29 -    ivINT_I2C1                    unused by PE */
@@ -202,7 +202,7 @@ extern "C" {
 #define VECTOR_71         (tIsrFunc)&UnhandledInterrupt         /* 0x47 -    ivINT_Reserved71              unused by PE */
 #define VECTOR_72         (tIsrFunc)&UnhandledInterrupt         /* 0x48 -    ivINT_DAC0                    unused by PE */
 #define VECTOR_73         (tIsrFunc)&UnhandledInterrupt         /* 0x49 -    ivINT_MCG                     unused by PE */
-#define VECTOR_74         (tIsrFunc)&UnhandledInterrupt         /* 0x4A -    ivINT_LPTimer                 unused by PE */
+#define VECTOR_74         (tIsrFunc)&UnhandledInterrupt         /* 0x4A -    ivINT_LPTMR0                  unused by PE */
 #define VECTOR_75         (tIsrFunc)&ExtIntLdd5_Interrupt       /* 0x4B 112  ivINT_PORTA                   used by PE */
 #define VECTOR_76         (tIsrFunc)&ExtIntLdd4_Interrupt       /* 0x4C 112  ivINT_PORTB                   used by PE */
 #define VECTOR_77         (tIsrFunc)&Cpu_ivINT_PORTC            /* 0x4D 112  ivINT_PORTC                   used by PE */

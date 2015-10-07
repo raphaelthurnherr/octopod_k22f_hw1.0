@@ -4,10 +4,11 @@
 **     Project     : hexapod_k22f
 **     Processor   : MK22FN512VDC12
 **     Version     : Component 01.048, Driver 01.00, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-13, 22:24, # CodeGen: 3
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -382,6 +383,7 @@ typedef struct {
 /* Clock generator default state in FEE mode
    Clock source:                        External crystal (oscillator) (Property: Clock settings\Clock sources\System oscillator 0\Clock source)
    Clock source frequency:              8 MHz (Property: Clock settings\Clock sources\System oscillator 0\Clock source\Clock frequency)
+   Operating mode:                      Low power
    External frequency range:            Very high
    FLL external reference divider:      256
    FLL:                                 Enabled, engaged
@@ -411,6 +413,7 @@ typedef struct {
 /* Clock generator default state in FBE mode
    Clock source:                        External crystal (oscillator) (Property: Clock settings\Clock sources\System oscillator 0\Clock source)
    Clock source frequency:              8 MHz (Property: Clock settings\Clock sources\System oscillator 0\Clock source\Clock frequency)
+   Operating mode:                      Low power
    External frequency range:            Very high
    FLL external reference divider:      256
    FLL:                                 Enabled, bypassed
@@ -440,6 +443,7 @@ typedef struct {
 /* Clock generator default state in BLPE mode
    Clock source:                        External crystal (oscillator) (Property: Clock settings\Clock sources\System oscillator 0\Clock source)
    Clock source frequency:              8 MHz (Property: Clock settings\Clock sources\System oscillator 0\Clock source\Clock frequency)
+   Operating mode:                      Low power
    External frequency range:            Very high
    FLL external reference divider:      256
    FLL:                                 Disabled
@@ -467,6 +471,7 @@ typedef struct {
 /* Clock generator default state in PEE mode
    Clock source:                        External crystal (oscillator) (Property: Clock settings\Clock sources\System oscillator 0\Clock source)
    Clock source frequency:              8 MHz (Property: Clock settings\Clock sources\System oscillator 0\Clock source\Clock frequency)
+   Operating mode:                      Low power
 	 PLL External Reference Divider       %EXPE(1 + 1)
 	 PLL Multiplier                       48
    PLL:                                 Enabled, engaged
@@ -494,6 +499,7 @@ typedef struct {
 /* Clock generator default state in PBE mode
    Clock source:                        External crystal (oscillator) (Property: Clock settings\Clock sources\System oscillator 0\Clock source)
    Clock source frequency:              8 MHz (Property: Clock settings\Clock sources\System oscillator 0\Clock source\Clock frequency)
+   Operating mode:                      Low power
 	 PLL External Reference Divider       %EXPE(1 + 1)
 	 PLL Multiplier                       48
    PLL:                                 Enabled, bypassed
@@ -740,7 +746,7 @@ typedef struct {
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

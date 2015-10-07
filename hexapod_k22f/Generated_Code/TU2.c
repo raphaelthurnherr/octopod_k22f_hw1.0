@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : TimerUnit_LDD
 **     Version     : Component 01.164, Driver 01.11, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **          This TimerUnit component provides a low level API for unified hardware access across
 **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
@@ -51,7 +52,7 @@
 **     Contents    :
 **         Init - LDD_TDeviceData* TU2_Init(LDD_TUserData *UserDataPtr);
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -246,7 +247,7 @@ PE_ISR(TU2_Interrupt)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

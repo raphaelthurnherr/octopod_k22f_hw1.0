@@ -5,35 +5,24 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : BitIO
 **     Version     : Component 02.086, Driver 01.00, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         This component "BitIO" implements an one-bit input/output.
 **         It uses one bit/pin of a port.
 **         Methods of this component are mostly implemented as a macros
 **         (if supported by target language and compiler).
 **     Settings    :
-**         Used pin                    :
-**             ----------------------------------------------------
-**                Number (on package)  |    Name
-**             ----------------------------------------------------
-**                       64            |  ADC0_SE13/PTB3/I2C0_SDA/UART0_CTS_b/FTM0_FLT0
-**             ----------------------------------------------------
-**
-**         Port name                   : PTB
-**
-**         Bit number (in port)        : 3
-**         Bit mask of the port        : 0x0008
-**
-**         Initial direction           : Input (direction can be changed)
-**         Safe mode                   : yes
-**         Initial output value        : 1
-**         Initial pull option         : off
-**
-**         Port data register          : GPIOB_PDOR [0x400FF040]
-**         Port control register       : GPIOB_PDDR [0x400FF054]
-**
-**         Optimization for            : speed
+**          Component name                                 : SDA1
+**          Pin for I/O                                    : ADC0_SE13/PTB3/I2C0_SDA/UART0_CTS_b/FTM0_FLT0
+**          BitIO_LDD                                      : BitIO_LDD
+**          Direction                                      : Input/Output
+**          Initialization                                 : 
+**            Init. direction                              : Input
+**            Init. value                                  : 1
+**          Safe mode                                      : yes
+**          Optimization for                               : speed
 **     Contents    :
 **         SetDir - void SDA1_SetDir(bool Dir);
 **         GetVal - bool SDA1_GetVal(void);
@@ -41,7 +30,7 @@
 **         ClrVal - void SDA1_ClrVal(void);
 **         SetVal - void SDA1_SetVal(void);
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -216,7 +205,7 @@ void SDA1_SetVal(void)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

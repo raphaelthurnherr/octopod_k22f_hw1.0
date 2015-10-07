@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : BitIO_LDD
 **     Version     : Component 01.033, Driver 01.03, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         The HAL BitIO component provides a low level API for unified
 **         access to general purpose digital input/output pins across
@@ -17,7 +18,6 @@
 **     Settings    :
 **          Component name                                 : BitIoLdd5
 **          Pin for I/O                                    : ADC1_SE5b/CMP0_IN3/PTC9/FTM3_CH5/I2S0_RX_BCLK/FBa_AD6/FTM2_FLT0
-**          Pin signal                                     : 
 **          Direction                                      : Output
 **          Initialization                                 : 
 **            Init. direction                              : Output
@@ -31,7 +31,7 @@
 **         ClrVal - void BitIoLdd5_ClrVal(LDD_TDeviceData *DeviceDataPtr);
 **         SetVal - void BitIoLdd5_SetVal(LDD_TDeviceData *DeviceDataPtr);
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -238,7 +238,7 @@ void BitIoLdd5_SetVal(LDD_TDeviceData *DeviceDataPtr);
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

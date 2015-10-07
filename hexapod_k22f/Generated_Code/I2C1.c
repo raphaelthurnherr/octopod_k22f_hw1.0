@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : GenericSWI2C
 **     Version     : Component 01.007, Driver 01.00, CPU db: 3.00.000
+**     Repository  : Legacy User Components
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **
 **     Settings    :
@@ -878,7 +879,7 @@ byte I2C1_GetSelected(byte *Slv)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

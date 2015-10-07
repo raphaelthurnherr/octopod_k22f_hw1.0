@@ -3,9 +3,9 @@
 **      Processor   : MK22FN512VDC12
 **      Version     : 1.00
 **      Abstract    :
-**         This file implements the MCU initialization and CPU component runtime methods.
+**
 ** 
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -40,7 +40,7 @@
 ** @file Vectors_Config.h                                                  
 ** @version 01.00
 ** @brief
-**         This file implements the MCU initialization and CPU component runtime methods.
+**
 */         
 /*!
 **  @addtogroup Vectors_Config_module Vectors_Config module documentation
@@ -596,30 +596,30 @@ PE_ISR(Unhandled_ivINT_LVD_LVW)
 
 /*
 ** ===================================================================
-**     Method      :  Unhandled_ivINT_LLW (component MK22FN512DC12)
+**     Method      :  Unhandled_ivINT_LLWU (component MK22FN512DC12)
 **
 **     Description :
-**         This ISR services the unhandled ivINT_LLW interrupt.
+**         This ISR services the unhandled ivINT_LLWU interrupt.
 **         This method is internal. It is used by Processor Expert only.
 ** ===================================================================
 */
-PE_ISR(Unhandled_ivINT_LLW);
-PE_ISR(Unhandled_ivINT_LLW)
+PE_ISR(Unhandled_ivINT_LLWU);
+PE_ISR(Unhandled_ivINT_LLWU)
 {
   PE_DEBUGHALT();
 }
 
 /*
 ** ===================================================================
-**     Method      :  Unhandled_ivINT_Watchdog (component MK22FN512DC12)
+**     Method      :  Unhandled_ivINT_WDOG_EWM (component MK22FN512DC12)
 **
 **     Description :
-**         This ISR services the unhandled ivINT_Watchdog interrupt.
+**         This ISR services the unhandled ivINT_WDOG_EWM interrupt.
 **         This method is internal. It is used by Processor Expert only.
 ** ===================================================================
 */
-PE_ISR(Unhandled_ivINT_Watchdog);
-PE_ISR(Unhandled_ivINT_Watchdog)
+PE_ISR(Unhandled_ivINT_WDOG_EWM);
+PE_ISR(Unhandled_ivINT_WDOG_EWM)
 {
   PE_DEBUGHALT();
 }
@@ -1151,15 +1151,15 @@ PE_ISR(Unhandled_ivINT_MCG)
 
 /*
 ** ===================================================================
-**     Method      :  Unhandled_ivINT_LPTimer (component MK22FN512DC12)
+**     Method      :  Unhandled_ivINT_LPTMR0 (component MK22FN512DC12)
 **
 **     Description :
-**         This ISR services the unhandled ivINT_LPTimer interrupt.
+**         This ISR services the unhandled ivINT_LPTMR0 interrupt.
 **         This method is internal. It is used by Processor Expert only.
 ** ===================================================================
 */
-PE_ISR(Unhandled_ivINT_LPTimer);
-PE_ISR(Unhandled_ivINT_LPTimer)
+PE_ISR(Unhandled_ivINT_LPTMR0);
+PE_ISR(Unhandled_ivINT_LPTMR0)
 {
   PE_DEBUGHALT();
 }
@@ -1675,8 +1675,8 @@ __attribute__ ((section (".vectortable"))) const tVectorTable __vect_table __att
   VECTOR_34,                           /* 0x22 ivINT_FTF */
   VECTOR_35,                           /* 0x23 ivINT_Read_Collision */
   VECTOR_36,                           /* 0x24 ivINT_LVD_LVW */
-  VECTOR_37,                           /* 0x25 ivINT_LLW */
-  VECTOR_38,                           /* 0x26 ivINT_Watchdog */
+  VECTOR_37,                           /* 0x25 ivINT_LLWU */
+  VECTOR_38,                           /* 0x26 ivINT_WDOG_EWM */
   VECTOR_39,                           /* 0x27 ivINT_RNG */
   VECTOR_40,                           /* 0x28 ivINT_I2C0 */
   VECTOR_41,                           /* 0x29 ivINT_I2C1 */
@@ -1712,7 +1712,7 @@ __attribute__ ((section (".vectortable"))) const tVectorTable __vect_table __att
   VECTOR_71,                           /* 0x47 ivINT_Reserved71 */
   VECTOR_72,                           /* 0x48 ivINT_DAC0 */
   VECTOR_73,                           /* 0x49 ivINT_MCG */
-  VECTOR_74,                           /* 0x4A ivINT_LPTimer */
+  VECTOR_74,                           /* 0x4A ivINT_LPTMR0 */
   VECTOR_75,                           /* 0x4B ivINT_PORTA */
   VECTOR_76,                           /* 0x4C ivINT_PORTB */
   VECTOR_77,                           /* 0x4D ivINT_PORTC */

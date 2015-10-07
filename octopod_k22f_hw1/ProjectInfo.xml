@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MK22FN512xxx12</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M4</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>128k</SRAMsize>
+    <FLASHsize>512k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\System\</Path>
+      <Path>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\</Path>
+      <Path>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\IO_Map\</Path>
+      <Path>C:\Freescale\KDS_3.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
+      <Path>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\</Path>
+      <Path>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\</Path>
+      <Path>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\System\</Path>
+      <Path>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ASerialLdd1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd2.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd3.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd4.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd5.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd6.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd7.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd8.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd9.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd2.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd3.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd4.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd5.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\FX1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\GI2C1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\I2C1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\I2C2.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\IR0_detect.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\IR1_detect.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\IR2_detect.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Int1accel.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Led_blue.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Led_green.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Led_red.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PWM_CTRL_OE.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SCL1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SCL2.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SDA1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SDA2.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SW_I2C_PWM.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\System\CPU_Init.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\System\Peripherals_Init.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\System\Vectors.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TI1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TI2.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TI3.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TU1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TU2.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TU3.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TimerIntLdd1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TimerIntLdd2.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TimerIntLdd3.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\UART0.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\UsonicPWM.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\UsonicTrig.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\WAIT1.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\pin_mux.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Project_Settings\Startup_Code\startup.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\DCFcom.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\Events.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\hw_pwm.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\main.c</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\sensors.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ASerialLdd1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd2.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd3.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd4.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd5.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd6.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd7.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd8.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\BitIoLdd9.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\CPU_Config.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd2.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd3.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd4.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\ExtIntLdd5.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\FX1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\GI2C1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\I2C1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\I2C2.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\IO_Map\MK22F51212.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\IR0_detect.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\IR1_detect.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\IR2_detect.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Init_Config.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Int1accel.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Led_blue.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Led_green.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Led_red.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\ADC_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\CMP_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\CRC_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\DAC_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\DMAMUX_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\DMA_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\EWM_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\FMC_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\FTFA_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\FTM_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\GPIO_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\I2C_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\LLWU_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\LPTMR_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\LPUART_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\MCM_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\PDB_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\PDD_Types.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\PIT_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\PMC_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\PORT_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\RCM_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\RNGA_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\RTC_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\SAI_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\SCB_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\SIM_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\SMC_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\SPI_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\SysTick_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\UART_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\USB_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\VREF_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PDD\WDOG_PDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\PWM_CTRL_OE.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SCL1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SCL2.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SDA1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SDA2.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\SW_I2C_PWM.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\System\CPU_Init.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\System\PDD_Includes.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\System\Peripherals_Init.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TI1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TI2.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TI3.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TU1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TU2.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TU3.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TimerIntLdd1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TimerIntLdd2.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\TimerIntLdd3.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\UART0.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\UsonicPWM.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\UsonicTrig.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\Vectors_Config.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\WAIT1.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Generated_Code\pin_mux.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\DCFcom.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\Events.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\hw_pwm.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\main.h</PathName>
+      <PathName>C:\Users\rapha_000\Google Drive\dev\embedded_soft\k22f\repository\octopod_k22f_hw1\Sources\sensors.h</PathName>
+    </GeneratedHs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>

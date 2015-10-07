@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : ExtInt_LDD
 **     Version     : Component 02.156, Driver 01.02, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         This component, "ExtInt_LDD", provide a low level API 
 **         for unified access of external interrupts handling
@@ -16,19 +17,17 @@
 **     Settings    :
 **          Component name                                 : ExtIntLdd5
 **          Pin                                            : PTA13/LLWU_P4/FTM1_CH1/I2S0_TX_FS/FTM1_QD_PHB
-**          Pin signal                                     : 
 **          Generate interrupt on                          : both edges
 **          Interrupt                                      : INT_PORTA
 **          Interrupt priority                             : medium priority
 **          Initialization                                 : 
 **            Enabled in init. code                        : yes
 **            Auto initialization                          : yes
-**          Threshold level                                : 0
 **     Contents    :
 **         Init   - LDD_TDeviceData* ExtIntLdd5_Init(LDD_TUserData *UserDataPtr);
 **         GetVal - bool ExtIntLdd5_GetVal(LDD_TDeviceData *DeviceDataPtr);
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -210,7 +209,7 @@ bool ExtIntLdd5_GetVal(LDD_TDeviceData *DeviceDataPtr)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

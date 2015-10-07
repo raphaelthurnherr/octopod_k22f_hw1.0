@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : TimerInt
 **     Version     : Component 02.161, Driver 01.02, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         This component "TimerInt" implements a periodic interrupt.
 **         When the component and its events are enabled, the "OnInterrupt"
@@ -15,44 +16,28 @@
 **         The source of periodic interrupt can be timer compare or reload
 **         register or timer-overflow interrupt (of free running counter).
 **     Settings    :
-**         Timer name                  : FTM0_CNT (16-bit)
-**         Compare name                : FTM0_MOD
-**         Counter shared              : No
-**
-**         High speed mode
-**             Prescaler               : divide-by-[driven by slave component]
-**             Clock                   : [driven by slave component] Hz
-**           Initial period/frequency
-**             Xtal ticks              : ---
-**             microseconds            : 11
-**             milliseconds            : ---
-**             seconds                 : ---
-**             seconds (real)          : 11
-**             Hz                      : ---
-**             kHz                     : ---
-**             MHz                     : ---
-**
-**         Runtime setting             : none
-**
-**         Initialization:
-**              Timer                  : Enabled
-**              Events                 : Enabled
-**
-**         Timer registers
-**              Counter                : FTM0_CNT  [0x40038004]
-**              Mode                   : FTM0_SC   [0x40038000]
-**              Run                    : FTM0_SC   [0x40038000]
-**              Prescaler              : FTM0_SC   [0x40038000]
-**
-**         Compare registers
-**              Compare                : FTM0_MOD  [0x40038008]
-**
-**         Flip-flop registers
-**              Mode                   : FTM0_SC   [0x40038000]
+**          Component name                                 : TI2
+**          Periodic interrupt source                      : FTM0_MOD
+**          Counter                                        : FTM0_CNT
+**          Interrupt service/event                        : Enabled
+**            Interrupt                                    : INT_FTM0
+**            Interrupt priority                           : medium priority
+**          Interrupt period                               : 11 µs
+**          Same period in modes                           : yes
+**          Component uses entire timer                    : no
+**          Initialization                                 : 
+**            Enabled in init. code                        : yes
+**            Events enabled in init.                      : yes
+**          CPU clock/speed selection                      : 
+**            High speed mode                              : This component enabled
+**            Low speed mode                               : This component disabled
+**            Slow speed mode                              : This component disabled
+**          Referenced components                          : 
+**            TimerInt_LDD                                 : TimerInt_LDD
 **     Contents    :
 **         No public methods
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -145,7 +130,7 @@ void TimerIntLdd2_OnInterrupt(LDD_TUserData *UserDataPtr);
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

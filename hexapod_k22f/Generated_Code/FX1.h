@@ -6,14 +6,17 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : FXOS8700CQ
 **     Version     : Component 01.028, Driver 01.00, CPU db: 3.00.000
+**     Repository  : Legacy User Components
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         Implements a Driver for the MMA8451 accelerometer from Freescale.
 **     Settings    :
 **          Component Name                                 : FX1
 **          Slave Address                                  : 1C
 **          I2C Bus                                        : GI2C1
+**          Wait                                           : WAIT1
+**          Temperature offset                             : 24
 **          Constant Offsets                               : Enabled
 **            X offset                                     : 0
 **            Y offset                                     : 0
@@ -600,7 +603,7 @@ uint8_t FX1_SwReset(void);
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

@@ -5,7 +5,7 @@
 **      Abstract    :
 **         This file implements the MCU initialization and CPU component runtime methods.
 ** 
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -477,7 +477,6 @@ void PE_low_level_init(void)
 	/* JTAG TRST pin initialization */
   
   #if CPU_JTAG_TRST_PIN
-  /* JTAG nTRST pin routing */
   #endif /* CPU_JTAG_TRST_PIN */
 
 

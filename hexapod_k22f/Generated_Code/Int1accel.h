@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : ExtInt
 **     Version     : Component 02.105, Driver 01.00, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         This component "ExtInt" implements an external 
 **         interrupt, its control methods and interrupt/event 
@@ -14,33 +15,18 @@
 **         The component uses one pin which generates interrupt on 
 **         selected edge.
 **     Settings    :
-**         Interrupt name              : INT_PORTD
-**         User handling procedure     : Int1accel_OnInterrupt
-**
-**         Used pin                    :
-**             ----------------------------------------------------
-**                Number (on package)  |    Name
-**             ----------------------------------------------------
-**                       99            |  PTD0/LLWU_P12/SPI0_PCS0/UART2_RTS_b/FTM3_CH0/FBa_ALE/FBa_CS1_b/FBa_TS_b/LPUART0_RTS_b
-**             ----------------------------------------------------
-**
-**         Port name                   : PTD
-**
-**         Bit number (in port)        : 0
-**         Bit mask of the port        : 0x0001
-**
-**         Signal edge/level           : falling
-**         Priority                    : 112
-**         Pull option                 : off
-**         Initial state               : Enabled
-**
-**
-**         Port data register          : GPIOD_PDOR [0x400FF0C0]
-**         Port control register       : GPIOD_PDDR [0x400FF0D4]
+**          Component name                                 : Int1accel
+**          Pin                                            : PTD0/LLWU_P12/SPI0_PCS0/UART2_RTS_b/FTM3_CH0/FBa_ALE/FBa_CS1_b/FBa_TS_b/LPUART0_RTS_b
+**          ExtInt_LDD                                     : ExtInt_LDD
+**          Generate interrupt on                          : falling edge
+**          Interrupt                                      : INT_PORTD
+**          Interrupt priority                             : medium priority
+**          Initialization                                 : 
+**            Enabled in init. code                        : yes
 **     Contents    :
 **         GetVal - bool Int1accel_GetVal(void);
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -138,7 +124,7 @@ void ExtIntLdd1_OnInterrupt(LDD_TUserData *UserDataPtr);
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

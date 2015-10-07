@@ -6,16 +6,15 @@
 **     Component   : PE_Types
 **     Version     : Driver 01.01
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         PE_Types.h - contains definitions of basic types,
 **         register access macros and hardware specific macros
 **         which can be used in user application.
-**     Settings    :
 **     Contents    :
 **         No public methods
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -125,6 +124,7 @@ typedef unsigned long int       uint32;
  } while(0)
 
 
+
 /* Save status register and disable interrupts */
 #define EnterCritical() \
  do {\
@@ -142,6 +142,7 @@ typedef unsigned long int       uint32;
    }\
  } while(0)
 
+ 
 /* Restore status register  */
 #define ExitCritical() \
  do {\
@@ -2525,8 +2526,8 @@ typedef enum {
 #define LDD_ivIndex_INT_FTF                     0x22u
 #define LDD_ivIndex_INT_Read_Collision          0x23u
 #define LDD_ivIndex_INT_LVD_LVW                 0x24u
-#define LDD_ivIndex_INT_LLW                     0x25u
-#define LDD_ivIndex_INT_Watchdog                0x26u
+#define LDD_ivIndex_INT_LLWU                    0x25u
+#define LDD_ivIndex_INT_WDOG_EWM                0x26u
 #define LDD_ivIndex_INT_RNG                     0x27u
 #define LDD_ivIndex_INT_I2C0                    0x28u
 #define LDD_ivIndex_INT_I2C1                    0x29u
@@ -2562,7 +2563,7 @@ typedef enum {
 #define LDD_ivIndex_INT_Reserved71              0x47u
 #define LDD_ivIndex_INT_DAC0                    0x48u
 #define LDD_ivIndex_INT_MCG                     0x49u
-#define LDD_ivIndex_INT_LPTimer                 0x4Au
+#define LDD_ivIndex_INT_LPTMR0                  0x4Au
 #define LDD_ivIndex_INT_PORTA                   0x4Bu
 #define LDD_ivIndex_INT_PORTB                   0x4Cu
 #define LDD_ivIndex_INT_PORTC                   0x4Du
@@ -2599,7 +2600,7 @@ typedef enum {
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

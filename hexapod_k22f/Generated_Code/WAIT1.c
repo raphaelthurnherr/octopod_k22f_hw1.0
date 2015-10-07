@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : Wait
 **     Version     : Component 01.067, Driver 01.00, CPU db: 3.00.000
+**     Repository  : Legacy User Components
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **          Implements busy waiting routines.
 **     Settings    :
@@ -218,7 +219,7 @@ void WAIT1_WaitOSms(void)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

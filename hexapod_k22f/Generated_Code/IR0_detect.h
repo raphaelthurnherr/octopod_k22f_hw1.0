@@ -5,8 +5,9 @@
 **     Processor   : MK22FN512VDC12
 **     Component   : ExtInt
 **     Version     : Component 02.105, Driver 01.00, CPU db: 3.00.000
+**     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-03-25, 20:53, # CodeGen: 1
+**     Date/Time   : 2015-09-07, 17:18, # CodeGen: 2
 **     Abstract    :
 **         This component "ExtInt" implements an external 
 **         interrupt, its control methods and interrupt/event 
@@ -14,33 +15,18 @@
 **         The component uses one pin which generates interrupt on 
 **         selected edge.
 **     Settings    :
-**         Interrupt name              : INT_PORTC
-**         User handling procedure     : IR0_detect_OnInterrupt
-**
-**         Used pin                    :
-**             ----------------------------------------------------
-**                Number (on package)  |    Name
-**             ----------------------------------------------------
-**                       82            |  CMP1_IN1/PTC3/LLWU_P7/SPI0_PCS1/UART1_RX/FTM0_CH2/CLKOUT/I2S0_TX_BCLK/LPUART0_RX
-**             ----------------------------------------------------
-**
-**         Port name                   : PTC
-**
-**         Bit number (in port)        : 3
-**         Bit mask of the port        : 0x0008
-**
-**         Signal edge/level           : both
-**         Priority                    : 112
-**         Pull option                 : off
-**         Initial state               : Enabled
-**
-**
-**         Port data register          : GPIOC_PDOR [0x400FF080]
-**         Port control register       : GPIOC_PDDR [0x400FF094]
+**          Component name                                 : IR0_detect
+**          Pin                                            : CMP1_IN1/PTC3/LLWU_P7/SPI0_PCS1/UART1_RX/FTM0_CH2/CLKOUT/I2S0_TX_BCLK/LPUART0_RX
+**          ExtInt_LDD                                     : ExtInt_LDD
+**          Generate interrupt on                          : both edges
+**          Interrupt                                      : INT_PORTC
+**          Interrupt priority                             : medium priority
+**          Initialization                                 : 
+**            Enabled in init. code                        : yes
 **     Contents    :
 **         GetVal - bool IR0_detect_GetVal(void);
 **
-**     Copyright : 1997 - 2014 Freescale Semiconductor, Inc. 
+**     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
 **     
 **     Redistribution and use in source and binary forms, with or without modification,
@@ -138,7 +124,7 @@ void ExtIntLdd2_OnInterrupt(LDD_TUserData *UserDataPtr);
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.11]
+**     This file was created by Processor Expert 10.5 [05.21]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

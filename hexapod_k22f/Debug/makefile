@@ -53,7 +53,7 @@ all: hexapod_k22f.elf secondary-outputs
 hexapod_k22f.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/raph/Google Drive/dev/embedded_soft/k22f/repository/hexapod_k22f/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/raph/Google Drive/dev/embedded_soft/k22f/repository/hexapod_k22f/Project_Settings/Linker_Files" -Wl,-Map,"hexapod_k22f.map" -nanolibc -o "hexapod_k22f.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/raph/Google Drive/dev/embedded_soft/k22f/repository/hexapod_k22f/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/raph/Google Drive/dev/embedded_soft/k22f/repository/hexapod_k22f/Project_Settings/Linker_Files" -Wl,-Map,"hexapod_k22f.map" -specs=nano.specs -specs=nosys.specs -o "hexapod_k22f.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
